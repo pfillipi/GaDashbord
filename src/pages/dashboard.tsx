@@ -1,4 +1,4 @@
-import { Box, Flex, SimpleGrid } from "@chakra-ui/react";
+import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 
@@ -17,7 +17,15 @@ export default function Dashboard() {
             borderRadius={8}
           // pb="4"
           >
-
+            <Text fontSize="lg" mb="4">Ukens abonnenter</Text>
+          </Box>
+          <Box
+            p="8"
+            bg="gray.800"
+            borderRadius={8}
+          // pb="4"
+          >
+            <Text fontSize="lg" mb="4">Åpningsgebyr</Text>
           </Box>
         </SimpleGrid>
       </Flex>
