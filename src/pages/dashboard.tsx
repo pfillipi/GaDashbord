@@ -14,6 +14,8 @@ export default function Dashboard() {
           <Box
             p="8"
             bg="gray.800"
+            borderRadius={8}
+          // pb="4"
           >
 
           </Box>
